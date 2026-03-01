@@ -1,10 +1,10 @@
 {
-  "name": "pi-webfetch",
+  "name": "pi-webfetch-to-markdown",
   "version": "1.0.0",
   "description": "Fetch web content as clean Markdown for AI consumption. Supports Cloudflare's Markdown for Agents content negotiation with Turndown fallback.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/richardanaya/pi-webfetch.git"
+    "url": "git+https://github.com/richardanaya/pi-webfetch-to-markdown.git"
   },
   "keywords": [
     "pi-package",
