@@ -1,6 +1,6 @@
 {
   "name": "pi-webfetch-to-markdown",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Fetch web content as clean Markdown for AI consumption. Supports Cloudflare's Markdown for Agents content negotiation with Turndown fallback.",
   "repository": {
     "type": "git",
@@ -28,6 +28,11 @@
   "peerDependencies": {
     "@mariozechner/pi-ai": "*",
     "@mariozechner/pi-coding-agent": "*"
+  },
+  "pi": {
+    "extensions": [
+      "./index.ts"
+    ]
   },
   "dependencies": {
     "turndown": "^7.2.2"
